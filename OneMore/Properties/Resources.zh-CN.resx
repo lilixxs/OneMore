@@ -253,7 +253,7 @@
     <comment>intro box</comment>
   </data>
   <data name="AliasSheet_introBox.Text" xml:space="preserve">
-    <value>定义命令别名在命令调色板中使用。</value>
+    <value>定义命令别名，以便在命令面板中快速调用命令。</value>
     <comment>label</comment>
   </data>
   <data name="AliasSheet_Title" xml:space="preserve">
@@ -525,7 +525,7 @@
     <comment>dialog title</comment>
   </data>
   <data name="ColorizerSheet_applyBox.Text" xml:space="preserve">
-    <value>着色代码时始终应用以下字体</value>
+    <value>代码上色时始终使用以下字体进行格式化</value>
     <comment>checkbox</comment>
   </data>
   <data name="ColorizerSheet_enabledLabel.Text" xml:space="preserve">
@@ -533,42 +533,42 @@
     <comment>label</comment>
   </data>
   <data name="ColorizerSheet_fixedBox.Text" xml:space="preserve">
-    <value>仅显示固定宽度的字体</value>
+    <value>仅使用等宽字体</value>
     <comment>checkbox</comment>
   </data>
   <data name="ColorizerSheet_font2Label.Text" xml:space="preserve">
-    <value>次要</value>
+    <value>次要字体</value>
     <comment>label</comment>
   </data>
   <data name="ColorizerSheet_fontLabel.Text" xml:space="preserve">
-    <value>基本的</value>
+    <value>主要字体</value>
     <comment>label</comment>
   </data>
   <data name="ColorizerSheet_introBox.Text" xml:space="preserve">
-    <value>自定义colorize命令的行为。 倒数plantuml时次要字体适用</value>
+    <value>代码格式化配置。渲染 PlantUML 图像时会使用到次要字体</value>
     <comment>label</comment>
   </data>
   <data name="ColorizerSheet_Title" xml:space="preserve">
-    <value>着色器</value>
+    <value>代码格式化</value>
   </data>
   <data name="ColorsSheet_clickLabel.Text" xml:space="preserve">
     <value>（点击更改）</value>
     <comment>settings sheet</comment>
   </data>
   <data name="ColorsSheet_introBox.Text" xml:space="preserve">
-    <value>自定义由删除线已完成待办事项标签命令标记的水平线片段和任务的默认样式</value>
+    <value>自定义水平线、双水平线、待办事项已完成状态删除线的默认样式</value>
     <comment>settings sheet</comment>
   </data>
   <data name="ColorsSheet_linesGroupBox.Text" xml:space="preserve">
-    <value>水平线</value>
+    <value>水平线样式</value>
     <comment>settings sheet group box</comment>
   </data>
   <data name="ColorsSheet_strikeBox.Text" xml:space="preserve">
-    <value>使用删除线已完成的待办事项标签命令时应用此颜色</value>
+    <value>使用“删除线完成标记”命令时，删除线应用以下颜色</value>
     <comment>settings sheet checkbox</comment>
   </data>
   <data name="ColorsSheet_strikeGroupBox.Text" xml:space="preserve">
-    <value>删除线待办事项标签</value>
+    <value>待办事项完成状态的删除线</value>
     <comment>settings sheet group box</comment>
   </data>
   <data name="ColorsSheet_Title" xml:space="preserve">
@@ -604,7 +604,11 @@
     <comment>label</comment>
   </data>
   <data name="ContextMenuSheet_introBox.Text" xml:space="preserve">
-    <value>选择要在页面上下文菜单中显示的命令。菜单项包括该菜单中的所有命令。重新启动 OneNote 以查看更改。如果您选择“菜单”选项之一，例如“编辑菜单”，那么它将作为弹出菜单添加并包括所有编辑菜单项。但是，如果您选择其中一个子项，例如“To lowercase”，那么该项将被添加为顶级上下文菜单项。如果您碰巧同时选择了两者，那么两者都会显示，可能是重复的项目。</value>
+    <value>菜单项包括该菜单中的所有命令。修改配置后需重新启动 OneNote 以显示更改。
+
+如果您选勾选了一个菜单项，例如“编辑”，那么它将以包括所有子选项的顶级选项形式添加到右键菜单。
+但如果您勾选的是菜单中的子项，例如“全部小写”，那么该项将单独以顶级选项的样式添加到右键菜单。
+如果您同时选择了两者，那么两者都会显示，这会是重复功能的显示。</value>
     <comment>intro</comment>
   </data>
   <data name="ContextMenuSheet_menu" xml:space="preserve">
@@ -612,7 +616,7 @@
     <comment>checkbox text replacement</comment>
   </data>
   <data name="ContextMenuSheet_Title" xml:space="preserve">
-    <value>上下文菜单</value>
+    <value>上下文菜单（右键菜单）</value>
     <comment>sheet</comment>
   </data>
   <data name="ConvertImagesCommand_Converted" xml:space="preserve">
@@ -1265,13 +1269,13 @@ OneNote 文件 (*.one)</value>
     <comment>textbox</comment>
   </data>
   <data name="GeneralSheet_sequentialBox.Text" xml:space="preserve">
-    <value>允许命令面板中的非连续名称匹配</value>
+    <value>在命令面板中启用模糊搜索</value>
     <comment>checkbox</comment>
   </data>
   <data name="GeneralSheet_themeBox.Text" xml:space="preserve">
-    <value>系统
-光
-黑暗的</value>
+    <value>自动（跟随OneNote设置）
+浅色
+暗色</value>
     <comment>combobox</comment>
   </data>
   <data name="GeneralSheet_themeLabel.Text" xml:space="preserve">
@@ -1279,11 +1283,11 @@ OneNote 文件 (*.one)</value>
     <comment>label</comment>
   </data>
   <data name="GeneralSheet_Title" xml:space="preserve">
-    <value>常规选项</value>
+    <value>常规</value>
     <comment>settings sheet</comment>
   </data>
   <data name="GeneralSheet_verboseBox.Text" xml:space="preserve">
-    <value>启用详细日志记录</value>
+    <value>记录详细日志</value>
     <comment>checkbox</comment>
   </data>
   <data name="GetImagesCommand_Cite" xml:space="preserve">
@@ -1650,7 +1654,7 @@ OneNote 文件 (*.one)</value>
     <comment>label</comment>
   </data>
   <data name="InsertCalendarDialog_firstLabel.Text" xml:space="preserve">
-    <value>一周的第一天</value>
+    <value>每周的第一天</value>
     <comment>label</comment>
   </data>
   <data name="InsertCalendarDialog_indentBox.Text" xml:space="preserve">
@@ -2110,7 +2114,7 @@ OneNote 文件 (*.one)</value>
     <comment>label</comment>
   </data>
   <data name="PageColorDialog_loadThemeLink.Text" xml:space="preserve">
-    <value>加载不同的样式</value>
+    <value>加载其他样式</value>
     <comment>linklabel</comment>
   </data>
   <data name="PageColorDialog_noLabel.Text" xml:space="preserve">
@@ -2122,9 +2126,9 @@ OneNote 文件 (*.one)</value>
     <comment>label</comment>
   </data>
   <data name="PageColorDialog_scopeBox.Text" xml:space="preserve">
-    <value>申请此页面
-适用于本部分
-适用于本笔记本</value>
+    <value>应用到当前页面
+应用到当前组
+应用到整个笔记本</value>
     <comment>combobox</comment>
   </data>
   <data name="PasteCellsCommand_NoContent" xml:space="preserve">
@@ -2301,11 +2305,11 @@ OneNote 文件 (*.one)</value>
     <comment>label</comment>
   </data>
   <data name="PreviewMarkdownCommand_Title" xml:space="preserve">
-    <value>降价预览</value>
+    <value>Markdown 预览</value>
     <comment>dialog title</comment>
   </data>
   <data name="ProgramName" xml:space="preserve">
-    <value>多一</value>
+    <value>OneMore</value>
     <comment>SKIP</comment>
   </data>
   <data name="Pronunciate_EmptyWord" xml:space="preserve">
@@ -2325,18 +2329,18 @@ OneNote 文件 (*.one)</value>
     <comment>error message box</comment>
   </data>
   <data name="PronunciateDialog.Text" xml:space="preserve">
-    <value>语音学</value>
+    <value>显示语言</value>
     <comment>dialog title</comment>
   </data>
   <data name="PronunciateDialog_languages" xml:space="preserve">
     <value>英语,英语
-嗨，印地语
+hi，印地语
 es,西班牙语
-法语,法语
-日语,日语
+fr,法语
+ja,日语
 ru,俄语
 de,德语
-它，意大利语
+it，意大利语
 ko,韩语
 pt-BR,巴西葡萄牙语
 ar,阿拉伯语
@@ -2893,7 +2897,7 @@ ISO-code then comma then language name</comment>
     <comment>settings dialog, ribbon bar options</comment>
   </data>
   <data name="RibbonBarSheet_Title" xml:space="preserve">
-    <value>丝带栏</value>
+    <value>菜单样式</value>
     <comment>settings dialog</comment>
   </data>
   <data name="ribBreakingButton_Label" xml:space="preserve">
@@ -2940,7 +2944,7 @@ ISO-code then comma then language name</comment>
     <value>选择收藏夹</value>
   </data>
   <data name="ribCleanMenu_Label" xml:space="preserve">
-    <value>清洁</value>
+    <value>格式整理</value>
     <comment>Ribbon OneMore menu item</comment>
   </data>
   <data name="ribCleanRemindersButton_Label" xml:space="preserve">
@@ -2988,7 +2992,7 @@ ISO-code then comma then language name</comment>
     <comment>ribbon extras</comment>
   </data>
   <data name="ribColorizeMenu_Label" xml:space="preserve">
-    <value>上色</value>
+    <value>代码着色</value>
     <comment>ribbon item</comment>
   </data>
   <data name="ribCommandPaletteButton_Label" xml:space="preserve">
@@ -3116,7 +3120,7 @@ ISO-code then comma then language name</comment>
     <comment>ribbon menu NODUP</comment>
   </data>
   <data name="ribDateStampButton_Label" xml:space="preserve">
-    <value>节中的日期戳页</value>
+    <value>标题加日期</value>
     <comment>ribbon</comment>
   </data>
   <data name="ribDateStampButton_Screentip" xml:space="preserve">
@@ -3404,7 +3408,7 @@ ISO-code then comma then language name</comment>
     <comment>ribbon table</comment>
   </data>
   <data name="ribInsertCodeBoxButton_Label" xml:space="preserve">
-    <value>代码盒</value>
+    <value>代码块</value>
     <comment>ribbon snippets</comment>
   </data>
   <data name="ribInsertCodeBoxButton_Screentip" xml:space="preserve">
@@ -3472,7 +3476,7 @@ ISO-code then comma then language name</comment>
     <comment>ribbon snippets</comment>
   </data>
   <data name="ribInsertNoteBoxButton_Label" xml:space="preserve">
-    <value>备注箱</value>
+    <value>笔记说明</value>
     <comment>ribbon snippets</comment>
   </data>
   <data name="ribInsertNoteBoxButton_Screentip" xml:space="preserve">
@@ -3688,7 +3692,7 @@ ISO-code then comma then language name</comment>
     <comment>Ribbon OneMore menu item</comment>
   </data>
   <data name="ribNumberPagesButton_Label" xml:space="preserve">
-    <value>号码页</value>
+    <value>页面编号</value>
     <comment>Ribbon OneMore menu item</comment>
   </data>
   <data name="ribNumberPagesButton_Screentip" xml:space="preserve">
@@ -3708,7 +3712,7 @@ ISO-code then comma then language name</comment>
     <comment>ribbon</comment>
   </data>
   <data name="ribOneMoreEvenMoreGroup_Label" xml:space="preserve">
-    <value>更多的</value>
+    <value>更多功能</value>
     <comment>ribbon</comment>
   </data>
   <data name="ribOneMoreGroup_Label" xml:space="preserve">
@@ -3728,7 +3732,7 @@ ISO-code then comma then language name</comment>
     <comment>ribbon</comment>
   </data>
   <data name="ribOneMoreTableGroup_Label" xml:space="preserve">
-    <value>桌子</value>
+    <value>表格</value>
     <comment>ribbon</comment>
   </data>
   <data name="ribOneMoreTagGroup_Label" xml:space="preserve">
@@ -3959,7 +3963,7 @@ ISO-code then comma then language name</comment>
     <comment>ribbon clean</comment>
   </data>
   <data name="ribRemovePageNumbersButton_Label" xml:space="preserve">
-    <value>删除页码</value>
+    <value>删除页面编号</value>
     <comment>Ribbon OneMore menu item</comment>
   </data>
   <data name="ribRemovePageNumbersButton_Screentip" xml:space="preserve">
@@ -3998,11 +4002,11 @@ ISO-code then comma then language name</comment>
     <value>删除与提醒无关的标签</value>
   </data>
   <data name="ribReplayButton_Label" xml:space="preserve">
-    <value>重放上一个命令</value>
+    <value>执行上一个命令</value>
     <comment>Ribbon OneMore menu item, trim</comment>
   </data>
   <data name="ribReplayButton_Screentip" xml:space="preserve">
-    <value>重放上一个命令 (Alt + Shift + R)</value>
+    <value>执行上一个命令 (Alt + Shift + R)</value>
     <comment>Ribbon OneMore menu item, trim</comment>
   </data>
   <data name="ribReportRemindersButton_Label" xml:space="preserve">
@@ -4182,7 +4186,7 @@ ISO-code then comma then language name</comment>
     <comment>ribbon extras</comment>
   </data>
   <data name="ribSnippetsMenu_Label" xml:space="preserve">
-    <value>片段</value>
+    <value>插入片段</value>
     <comment>Ribbon OneMore menu item, Snippets...</comment>
   </data>
   <data name="ribSortButton_Label" xml:space="preserve">
@@ -4270,11 +4274,11 @@ ISO-code then comma then language name</comment>
     <comment>ribbon extras</comment>
   </data>
   <data name="ribStatusMenu_Label" xml:space="preserve">
-    <value>地位</value>
+    <value>状态</value>
     <comment>ribbon snippets</comment>
   </data>
   <data name="ribStrikeoutTasksButton_Label" xml:space="preserve">
-    <value>删除线完成标记</value>
+    <value>任务事项删除线完成标记</value>
     <comment>Ribbon OneMore menu item</comment>
   </data>
   <data name="ribStrikeoutTasksButton_Screentip" xml:space="preserve">
@@ -4566,13 +4570,13 @@ ISO-code then comma then language name</comment>
     <comment>button</comment>
   </data>
   <data name="SearchEngineSheet_introBox.Text" xml:space="preserve">
-    <value>URL模式必须包含一个字符串更换令牌，例如＆q = {0}
+    <value>网址格式中须包含待搜索的字符串替换占位符，例如 &amp;q={0}
 
-搜索引擎将出现在“页面上下文”菜单中，右键单击。</value>
+在右键弹出的菜单中，会显示配置的搜索引擎选项。</value>
     <comment>label</comment>
   </data>
   <data name="SearchEngineSheet_upButton.Text" xml:space="preserve">
-    <value>提升</value>
+    <value>上移</value>
     <comment>button</comment>
   </data>
   <data name="SearchQF_DescriptionCopy" xml:space="preserve">
